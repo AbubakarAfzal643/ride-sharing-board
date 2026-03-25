@@ -17,7 +17,6 @@ import ChangePassword from "./pages/ChangePassword";
 import Dashboard from "./pages/Dashboard";
 import UserProfile from "./pages/UserProfile";
 
-
 function App() {
   const isAuthenticated = useSelector((state) => state.user.isAuthenticated);
 

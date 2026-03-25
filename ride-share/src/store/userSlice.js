@@ -12,13 +12,6 @@ const initialState = {
       password: "password123",
       major: "Software Engineering",
     },
-    {
-      id: "u2",
-      name: "Fatima Irfan",
-      email: "fatima@campus.edu",
-      password: "password123",
-      major: "Electrical Engineering",
-    },
   ],
 };
 
