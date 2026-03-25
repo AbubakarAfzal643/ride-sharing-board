@@ -15,6 +15,7 @@ const initialState = {
   ],
 };
 
+
 const userSlice = createSlice({
   name: "user",
   initialState,
@@ -38,6 +39,7 @@ const userSlice = createSlice({
       state.users.push(newUser);
       state.currentUser = newUser;
       state.isAuthenticated = true;
+      // console.log("Users:", JSON.stringify(state.users, null, 2));
     },
     changePassword: (state, action) => {
       if (state.currentUser) {
